@@ -8,7 +8,6 @@ import VideoPlayer from './components/VideoPlayer';
 import videoData from './video-data.json';
 
 function App() {
-
   const [state, dispatch] = useReducer(rootReducer, initialState);
   const { player: { videoSelected, videos }} = state;
 

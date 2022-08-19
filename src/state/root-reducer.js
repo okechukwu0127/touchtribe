@@ -1,8 +1,7 @@
 import actions from './actions';
 import produce from 'immer';
 
-export default (state, action) => {
-
+const rootReducer = (state, action) => {
     switch (action.type) {
         case actions.HYDRATE_VIDEO_DATA:
             return produce(state, draft => {
@@ -16,3 +15,5 @@ export default (state, action) => {
         console.error(`No reducer for action type ${action.type} found.`);
     }
   }
+
+  export default rootReducer
