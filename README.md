@@ -8,7 +8,7 @@ Feel free to reach out to your point of contact at Touchtribe with any questions
 
 # General Setup and Submission Process
 
-1) Fork this repo to your personal GitHub account.
+1) Fork this repo to your personal Gitlab account.
 
 2) Clone the forked repo to your computer and install its dependences with npm.
 
