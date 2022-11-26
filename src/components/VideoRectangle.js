@@ -9,9 +9,10 @@ import {
     PlaybackRateMenuButton,
     VolumeMenuButton
 } from 'video-react';
+import _get from "lodash/get";
+import styled from "styled-components";
 import HLSSource from './HLSSource';
-import _get from 'lodash/get';
-import styled from 'styled-components';
+
 
 const Wrapper = styled.div`
     width: 50%;
