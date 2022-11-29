@@ -1,6 +1,6 @@
 /* eslint-disable no-empty-pattern */
 import React from "react";
-import "./App.css";
+
 import "video-react/dist/video-react.css";
 
 import Global from "./style/global";
@@ -12,6 +12,10 @@ function App() {
       <Global />
       <Main />
     </div>
+
+
+    
+    
   );
 }
 

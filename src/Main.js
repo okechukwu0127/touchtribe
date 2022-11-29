@@ -1,15 +1,7 @@
 import React from "react";
-import NewVideoList from "./components/NewVideoList";
-import {
-  Container,
-  BoxTitle,
-  BoxText,
-  Row,
-  Column,
-  UpNext,
-  VideoPlayer,
-  FixedData,
-} from "./style";
+import VideoList from "./components/list/VideoList";
+import { Container, Row, Column, FixedData } from "./style/resuable";
+import VideoPlayerCard from "./components/player/VideoContainer";
 
 export default function Main() {
   return (
@@ -17,16 +9,12 @@ export default function Main() {
       <Row>
         <Column xs="12" sm="12" md="8" lg="8">
           <FixedData>
-           
-              <BoxTitle>Video Title</BoxTitle>
-              <BoxText>video player</BoxText>
-              <VideoPlayer>[][][]</VideoPlayer>
-          
+            <VideoPlayerCard />
           </FixedData>
         </Column>
         <Column xs="12" sm="12" md="4" lg="4">
-          <UpNext> Up Next</UpNext>
-          <NewVideoList />
+         
+          <VideoList />
         </Column>
       </Row>
     </Container>

@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`get VideoCard snapshot 1`] = `
+<div
+  className="sc-gswNZR"
+>
+  <div
+    className="video-react-controls-enabled video-react-paused video-react-fluid video-react-user-active video-react-workinghover video-react"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onMouseDown={[Function]}
+    onMouseMove={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="region"
+    style={
+      Object {
+        "paddingTop": "56.25%",
+      }
+    }
+    tabIndex="-1"
+  >
+    <video
+      autoPlay={true}
+      className="video-react-video"
+      muted={false}
+      onAbort={[Function]}
+      onCanPlay={[Function]}
+      onCanPlayThrough={[Function]}
+      onDurationChange={[Function]}
+      onEmptied={[Function]}
+      onEnded={[Function]}
+      onError={[Function]}
+      onLoadStart={[Function]}
+      onLoadedData={[Function]}
+      onLoadedMetadata={[Function]}
+      onPause={[Function]}
+      onPlay={[Function]}
+      onPlaying={[Function]}
+      onProgress={[Function]}
+      onRateChange={[Function]}
+      onSeeked={[Function]}
+      onSeeking={[Function]}
+      onStalled={[Function]}
+      onSuspend={[Function]}
+      onTimeUpdate={[Function]}
+      onVolumeChange={[Function]}
+      onWaiting={[Function]}
+      playsInline={false}
+      poster="https://fed-dss-challenge-qa.s3.amazonaws.com/assets/vid/2/living-stereo-thumb.jpg"
+      preload="auto"
+      tabIndex="-1"
+    />
+    <div
+      className="video-react-poster"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundImage": "url(\\"https://fed-dss-challenge-qa.s3.amazonaws.com/assets/vid/2/living-stereo-thumb.jpg\\")",
+        }
+      }
+    />
+    <div
+      className="video-react-loading-spinner"
+    />
+    <button
+      aria-live="polite"
+      className="video-react-button video-react-big-play-button video-react-big-play-button-left big-play-button-hide"
+      onClick={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="video-react-control-text"
+      >
+        Play Video
+      </span>
+    </button>
+    <div
+      className="video-react-control-bar video-react-control-bar-auto-hide"
+    >
+      <button
+        className="video-react-play-control video-react-control video-react-button video-react-paused"
+        onClick={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="video-react-control-text"
+        >
+          Play
+        </span>
+      </button>
+      <button
+        className="video-react-control video-react-button video-react-icon video-react-icon-replay-10 video-react-replay-control"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="video-react-control-text"
+        >
+          replay 10 seconds
+        </span>
+      </button>
+      <button
+        className="video-react-control video-react-button video-react-icon video-react-icon-forward-30 video-react-forward-control"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="video-react-control-text"
+        >
+          forward 30 seconds
+        </span>
+      </button>
+      <div
+        className="video-react-current-time video-react-time-control video-react-control"
+      >
+        <div
+          aria-live="off"
+          className="video-react-current-time-display"
+        >
+          <span
+            className="video-react-control-text"
+          >
+            Current Time 
+          </span>
+          0:00
+        </div>
+      </div>
+      <div
+        className="video-react-time-control video-react-time-divider"
+        dir="ltr"
+      >
+        <div>
+          <span>
+            /
+          </span>
+        </div>
+      </div>
+      <div
+        className="video-react-duration video-react-time-control video-react-control"
+      >
+        <div
+          aria-live="off"
+          className="video-react-duration-display"
+        >
+          <span
+            className="video-react-control-text"
+          >
+            Duration Time 
+          </span>
+          0:00
+        </div>
+      </div>
+      <div
+        className="video-react-progress-control video-react-control"
+        onMouseMove={[Function]}
+      >
+        <div
+          aria-label="video progress bar"
+          aria-valuemax={100}
+          aria-valuemin={0}
+          aria-valuenow="NaN"
+          aria-valuetext="0:00"
+          className="video-react-progress-holder video-react-slider-horizontal video-react-slider"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseDown={[Function]}
+          onTouchStart={[Function]}
+          role="slider"
+          tabIndex="0"
+        >
+          <div
+            className="video-react-play-progress video-react-slider-bar"
+            data-current-time="0:00"
+            style={
+              Object {
+                "width": "NaN%",
+              }
+            }
+          >
+            <span
+              className="video-react-control-text"
+            >
+              Progress: NaN%
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="video-react-playback-rate video-react-menu-button-popup video-react-control video-react-button video-react-menu-button"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        <span
+          className="video-react-control-text"
+        >
+          Playback Rate
+        </span>
+        <div
+          className="video-react-playback-rate-value"
+        >
+          1.00x
+        </div>
+      </div>
+      <button
+        className="video-react-icon-fullscreen video-react-fullscreen-control video-react-control video-react-button video-react-icon"
+        onClick={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          className="video-react-control-text"
+        >
+          Non-Fullscreen
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
