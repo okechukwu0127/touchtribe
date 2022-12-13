@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "betbank-c36da"
+  },
+  "targets": {
+    "betbank-c36da": {
+      "hosting": {
+        "touchtribe-code-challenge": [
+          "touchtribe-code-challenge"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
